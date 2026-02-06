@@ -3,13 +3,13 @@ on:
     branches:
       - main
       - "release/**"
-    path:
+    paths:
       - "src/**"
   pull_request:
     branches:
       - main
       - "release/**"    
-    path:
+    paths:
       - "src/**"
 jobs:
   test:
@@ -17,6 +17,5 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6.0.2
-
       - name: Run tests
         run: npm test
