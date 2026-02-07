@@ -1,5 +1,5 @@
 function great(name) {
-  console.log(`Hello, ${name}`);
+  return `Hello, ${name}`;
 }
 
 module.exports = {
