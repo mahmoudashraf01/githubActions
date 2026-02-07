@@ -6,6 +6,6 @@ module.exports = {
   great,
 };
 
-if(require.main === module) {
-  console.log(great("Mahmoud!"));
-}
+// if(require.main === module) {
+//   console.log(great("Mahmoud!"));
+// }
